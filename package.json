@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "2.1.7"
+    "bootstrap": "4.5.3",
+    "jquery": "3.5.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "2.1.7",
+    "reactstrap": "^8.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +25,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "emailjs-com": "^2.6.4"
+  }
 }

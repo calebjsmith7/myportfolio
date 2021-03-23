@@ -1,33 +1,190 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: 'Domine', sans-serif;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.n {
+  margin-left: 78%;
+}
+.bodysection {
+  height: 100vh;
+  width: 100vw;
+}
+.a {
+  background-image: url(./images/bench.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.b {
+  background-image: url(./images/traveler.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.c {
+  background-image: url(./images/deskclose.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.d {
+  background-image: url(./images/desk1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.big {
+  color: white;
+  font-family: 'Caveat', cursive;
+  font-size: 7vh;
+  font-weight: bold;
+  margin-right: 82.75%;
+  padding-top: 3%;
+}
+.medium {
+  color: white;
+  font-size: 3.5vh;
+  margin-right: 83.75%;
+}
+.p1 {
+  font-size: 6vh;
+  color: black;
+  text-align: left;
+  margin-top: 8vh;
+  margin-left: 43vw;
+}
+.l1 {
+  margin-top: 2vh;
+}
+.tint {
+  background-color: rgba(236, 233, 233, 0.473);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.p2 {
+  color: white;
+  font-size: 6vh;
+  text-align: right;
+  padding-top: 10%;
+  margin-left: 65%;
+  margin-right: 2%;
+}
+.tech {
+  color: white;
+  font-size: 5vh;
+  margin-right: 75%;
+  padding-top: 6%;
+}
+.iconbox {
+  width: 40%;
+  margin: auto;
+  margin-top: 15vh;
+}
+.icons {
+  display: flex;
+  margin: 9vh;
+}
+.icon {
+  margin: auto;
+  font-size: 6vh;
+}
+.icon:hover {
+  color: cyan;
+}
+.brands {
+  margin: auto;
+  color: white;
+  margin-top: -6%;
+}
+.greybox {
+  height: 100vh;
+  background-color: rgba(170, 170, 170, 0.856);
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.subbox {
+  border: 1vh solid white;
+  height: 45%;
+  width: 55%;
+  margin: auto;
+  vertical-align: middle;
+  background-size: cover;
+}
+.greybox :hover {
+  background-image: url(./images/leaves.jpg);
+  font-weight: bold;
+}
+.subbox :hover {
+  background-image: none;
+}
+.ghub {
+  font-family: "Nothing You Could Do", cursive;
+  color: white;
+  margin: auto;
+  font-size: 6vh;
+}
+.gh {
+  font-size: 9vh;
+  padding-top: 5vh;
+  color: white;
+}
+.gitlink, .gh, .ghub, .subbox, .greybox :hover {
+  text-decoration: none;
+}
+.viewproj {
+  color: white;
+  margin-top: 1%;
+  margin-left: 72%;
+  margin-right: 2%;
+}
+.contact-middle {
+  color: black;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.959);
+  padding-top: 8vh;
+  height: 110vh;
+  width: 50vw;
+  text-align: center;
+}
+.contact {
+  color: black;
+  margin: auto;
+  padding-top: 1vh;
+  background-color: rgba(255, 255, 255, 0.959);
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+#business {
+  margin-left: 2vw;
+}
+#church {
+  margin-left: 2.88vw;
+}
+#other {
+  margin-left: 3.86vw;
+}
+#explanation {
+  height: 15vh;
+  width: 30vw;
+}
+.contactpage {
+  background-image: url(./images/brickwall.jpg)
+}
+.form-label {
+  text-align: left;
+  margin-left: 1%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
