@@ -21,6 +21,9 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  @media (max-width: @iphone-screen) {
+    background-attachment: scroll;
+  }
 }
 .b {
   background-image: url(./images/traveler.jpg);
