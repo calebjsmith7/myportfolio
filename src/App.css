@@ -9,6 +9,8 @@
 .bodysection {
   height: 100vh;
   width: 100vw;
+  min-height: 100%;
+  min-width: 100%;
 }
 .a {
   background-image: url(./images/bench.jpg);
@@ -71,10 +73,10 @@
 }
 .p2 {
   color: white;
-  font-size: 6vh;
+  font-size: 3.6vw;
   text-align: right;
   padding-top: 10%;
-  margin-left: 65%;
+  margin-left: 50%;
   margin-right: 2%;
 }
 .tech {
@@ -110,14 +112,16 @@
   text-align: center;
   display: table-cell;
   vertical-align: middle;
-  width: 30%;
+  width: 50vw;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .subbox {
   border: 1vh solid white;
-  height: 45%;
-  width: 55%;
+  height: 40vh;
+  min-height: 40%;
+  width: 30vw;
+  min-width: 30%;
   margin: auto;
   vertical-align: middle;
   background-size: cover;
@@ -133,11 +137,11 @@
   font-family: "Nothing You Could Do", cursive;
   color: white;
   margin: auto;
-  font-size: 6vh;
+  font-size: 2.5vw;
 }
 .gh {
-  font-size: 9vh;
-  padding-top: 5vh;
+  font-size: 2.5vw;
+  padding-top: 2vh;
   color: white;
 }
 .gitlink, .gh, .ghub, .subbox, .greybox :hover {
@@ -145,17 +149,19 @@
 }
 .viewproj {
   color: white;
-  margin-top: 1%;
+  margin-top: .5%;
   margin-left: 72%;
   margin-right: 2%;
+  margin-bottom: 2%;
 }
 .contact-middle {
   color: black;
   margin: auto;
   background-color: rgba(255, 255, 255, 0.959);
   padding-top: 8vh;
-  height: 110vh;
+  height: 120vh;
   width: 50vw;
+  min-width: 50%;
   text-align: center;
 }
 .contact {
@@ -181,7 +187,8 @@
   width: 30vw;
 }
 .contactpage {
-  background-image: url(./images/brickwall.jpg)
+  background-image: url(./images/brickwall.jpg);
+  height: 200vh;
 }
 .form-label {
   text-align: left;
