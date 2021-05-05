@@ -2,6 +2,7 @@
   text-align: center;
   font-family: 'Domine', sans-serif;
   color: white;
+  overflow: hidden;
 }
 .n {
   margin-left: 78%;
@@ -11,6 +12,7 @@
   width: 100vw;
   min-height: 100%;
   min-width: 100%;
+  overflow: hidden;
 }
 .a {
   background-image: url(./images/bench.jpg);
@@ -32,6 +34,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  text-align: right;
 }
 .c {
   background-image: url(./images/deskclose.jpg);
@@ -68,7 +71,8 @@
   margin-left: 43vw;
 }
 .l1 {
-  margin-top: 2vh;
+  padding-top: 5vh;
+  width: 20%;
 }
 .tint {
   background-color: rgba(236, 233, 233, 0.473);
@@ -78,13 +82,17 @@
     width: 100vw;
     height: 100vh;
 }
+.btext {
+  margin: auto;
+  padding: 5%;
+  width: 35%;
+  margin-left: 65%;
+  margin-right: 1% !important;
+}
 .p2 {
   color: white;
-  font-size: 3.6vw;
+  font-size: 55px;
   text-align: right;
-  padding-top: 10%;
-  margin-left: 50%;
-  margin-right: 2%;
 }
 .tech {
   color: white;
@@ -95,11 +103,11 @@
 .iconbox {
   width: 40%;
   margin: auto;
-  margin-top: 15vh;
+  padding: 5%;
 }
 .icons {
   display: flex;
-  margin: 9vh;
+  padding: 9%;
 }
 .icon {
   margin: auto;
@@ -107,11 +115,6 @@
 }
 .icon:hover {
   color: cyan;
-}
-.brands {
-  margin: auto;
-  color: white;
-  margin-top: -6%;
 }
 .greybox {
   height: 100vh;
@@ -124,14 +127,12 @@
   background-repeat: no-repeat;
 }
 .subbox {
-  border: 1vh solid white;
-  height: 40vh;
-  min-height: 40%;
-  width: 30vw;
-  min-width: 30%;
+  border: 2px solid white;
+  height: 300px;
+  width: 400px;
   margin: auto;
-  vertical-align: middle;
   background-size: cover;
+  padding: 1%;
 }
 .greybox :hover {
   background-image: url(./images/leaves.jpg);
@@ -143,32 +144,42 @@
 .ghub {
   font-family: "Nothing You Could Do", cursive;
   color: white;
-  margin: auto;
-  font-size: 2.5vw;
+  padding: 5%;
+  padding-top: 13%;
+  font-size: 46px;
+}
+.ghub:hover {
+  font-weight: 800;
 }
 .gh {
-  font-size: 2.5vw;
-  padding-top: 2vh;
+  font-size: 50px;
+  padding-top: 1%;
+  margin-bottom: 1% !important;
   color: white;
 }
 .gitlink, .gh, .ghub, .subbox, .greybox :hover {
   text-decoration: none;
 }
 .viewproj {
-  color: white;
-  margin-top: .5%;
-  margin-left: 72%;
-  margin-right: 2%;
-  margin-bottom: 2%;
+  color: white !important;
+  background-color: transparent;
+  border: 2px solid white !important;
+  margin-top: 5%;
+  margin-bottom: 1% !important;
+  font-size: 18px !important;
+}
+.viewproj:hover {
+  background-color: white;
+  color: black !important;
+  border: 2px solid #2b2b2b;
 }
 .contact-middle {
   color: black;
   margin: auto;
   background-color: rgba(255, 255, 255, 0.959);
-  padding-top: 8vh;
-  height: 120vh;
-  width: 50vw;
-  min-width: 50%;
+  padding: 5%;
+  height: auto;
+  width: 50%;
   text-align: center;
 }
 .contact {
@@ -191,14 +202,70 @@
 }
 #explanation {
   height: 15vh;
-  width: 30vw;
 }
 .contactpage {
   background-image: url(./images/brickwall.jpg);
-  height: 200vh;
+  height: auto;
+  padding: 5%;
 }
 .form-label {
   text-align: left;
   margin-left: 1%;
 }
+.projectspage {
+  overflow: hidden;
+}
+.projectsa {
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./images/trees.jpg);
+  padding: 5%;
+  padding-top: 5%;
+}
+.projectstitle {
+  font-size: 60px;
+  padding-top: 3.5%;
+}
+.projectsboxcontainer {
+  width: 100%;
+  padding: 3%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  justify-items: center;
+
+}
+.projectsbox {
+  width: 300px;
+  height: 300px;
+  background-color: #2b2b2b;
+}
+.projectsbox:hover {
+  width: 305px;
+  height: 305px;
+}
+.proj1 {
+  background-image: url(./images/kenlogowht.png);
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+.proj2 {
+  background-image: url(./images/logo.png);
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+.proj3 {
+  font-size: 40px;
+  padding: 5%;
+}
+
 

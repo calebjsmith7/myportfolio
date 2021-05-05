@@ -57,7 +57,6 @@ class Contact extends Component {
 
     return (
         <div className="contactpage">
-          <div className="spacer"></div>
           <div className="contact-middle">
           <h5 className="emailus">EMAIL US FOR MORE INFO</h5>
           <form name="contact" className="contact form-group" onSubmit={this.handleSubmit.bind(this)}>
@@ -72,7 +71,8 @@ class Contact extends Component {
             <label for="phone" className="form-label">Phone Number</label><br/>
             <input type="tel" className="form-control" id="phone" name="phone" value={this.state.phone} onChange={this.handleChange.bind(this, 'phone')} placeholder="Phone Number" required></input><br/>
             <label for="explain" className="form-label">Additional Info</label><br/>
-            <textarea type="textarea" className="form-control" id="explanation" name="explanation" value={this.state.explain} onChange={this.handleChange.bind(this, 'explain')} placeholder="Enter More Information Here" required></textarea><br/>
+            <textarea type="textarea" className="form-control" id="explanation" name="explanation" value={this.state.explain} onChange={this.handleChange.bind(this, 'explain')} placeholder="Enter More Information Here" required></textarea>
+            <br />
             <input type="submit" className="submit" value="Submit"></input>
 
           </form>
