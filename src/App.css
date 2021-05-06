@@ -5,7 +5,50 @@
   overflow: hidden;
 }
 .n {
-  margin-left: 78%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: right;
+}
+.navv {
+  background-color: none;
+  z-index: 3;
+}
+.nbg {
+  background-color: #2b2b2b3f;
+  width: 15%;
+  margin-right: 5%;
+  padding-right: 1%;
+}
+.navbar-toggler {
+  margin-right: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.navbar-toggler:focus {
+  outline: none !important;
+}
+.fa-bars {
+  color: white;
+  border: none;
+  font-size: 3.5vh;
+  height: auto;
+}
+.navbar-dark .navbar-toggler {
+  border: 0;
+}
+@media (max-width: 800px){
+  .nbg {
+    width: auto;
+    margin-right: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+  }
+  .navbar-toggler {
+    margin-right: 5%;
+  }
+  .fa-bars {
+    font-size: 4.5vh;
+  }
 }
 .bodysection {
   height: 100vh;
@@ -268,4 +311,103 @@
   padding: 5%;
 }
 
+.lower {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 12vh;
+}
+.bottomlogo {
+  width: 10vw;
+  height: 9vh;
+  background-image: url(./images/caleblogo-blc.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  margin-left: 3%;
+  margin-top: 1.5%;
+  margin-right: 2%;
+  margin-bottom: auto;
+}
+.cw {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 12px;
+  font-weight: 800;
+  color: black;
+}
+.bottomright {
+  width: 75vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 55%;
+}
+.bottomlinks {
+  display: flex;
+  font-size: 11px;
+  font-weight: 800;
+  list-style-type: none;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.horizsep {
+  display: none;
+  color: black;
+}
+.vertsep {
+  color: black;
+}
+@media (max-width: 800px){
+  .bottomlogo {
+    width: 25vw;
+    margin-left: 5%;
+    margin-bottom: 2%;
+  }
+  .lower {
+    height: auto;
+    flex-direction: column;
+    padding: 5%;
+  }
+  .cw {
+    font-size: 1.8vw;
+    order: 2;
+    width: 95%;
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+  }
+  .bottomright {
+    width: 60vw;
+    margin: auto;
+    margin-left: -8%;
+    padding-left: 0;
+    text-align: left;
+    order: 1;
+    flex-direction: column;
+  }
+  .bottomlinks {
+    font-size: 2.3vw;
+    flex-direction: column;
+  }
+  .vertsep {
+    display: none;
+  }
+  .horizsep {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+  }
+}
+
+.fix {
+  text-decoration: none;
+  color: black;
+}
+.fix:hover {
+  text-decoration: none;
+  color: black;
+}
 

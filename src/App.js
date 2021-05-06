@@ -26,7 +26,7 @@ class App extends Component {
                   <Route exact path='/contact' component={Contact} />
                 </Switch>
             </div>
-      
+          <Lowermenu />
         </div>
       </Router>
     );
