@@ -321,13 +321,13 @@
 .bottomlogo {
   width: 10vw;
   height: 9vh;
-  background-image: url(./images/caleblogo-blc.png);
+  background-image: url(./images/caleblogo-sm.png);
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
   margin-left: 3%;
-  margin-top: 1.5%;
-  margin-right: 2%;
+  margin-top: auto;
+  margin-right: 0;
   margin-bottom: auto;
 }
 .cw {
