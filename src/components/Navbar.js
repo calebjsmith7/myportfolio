@@ -31,9 +31,9 @@ const Navbar = ({title}) =>{
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto n nbg">
-                    <li className="nav-item active"><Link to='/' className="nav-link l">HOME <span className="sr-only">(current)</span></Link></li>
-                    <li className="nav-item active"><Link to='/projects' className="nav-link l">PROJECTS</Link></li>
-                    <li className="nav-item active"><Link to='/contact' className="nav-link l">CONTACT ME</Link></li>
+                    <li className="nav-item active"><Link to='/' className="nav-link l" onClick={handleCollapse}>HOME <span className="sr-only">(current)</span></Link></li>
+                    <li className="nav-item active"><Link to='/projects' className="nav-link l" onClick={handleCollapse}>PROJECTS</Link></li>
+                    <li className="nav-item active"><Link to='/contact' className="nav-link l" onClick={handleCollapse}>CONTACT ME</Link></li>
                 </ul>
             </div>
         </nav>
